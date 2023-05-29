@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #edeef6;
+    text-align: center;
+    padding: 250px 0px;
+}
+
+.mybtn1 {
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    box-shadow: 0 2px 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-container.showModal {
+    opacity: 1;
+    pointer-events: auto;
+    /* background-color: black; */
+    background-color: hsla(0, 0%, 0%, 0.767);
+}
+
+.modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px;
+    text-align: center;
+}
+
+.mybtn2 {
+    background-color: rgb(197, 23, 52);
+    color: #edeef6;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    box-shadow: 0 2px 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.myinput {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.mybtn3 {
+    background-color: rgb(2, 0, 94);
+    color: #edeef6;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    box-shadow: 0 2px 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(5, 94, 5);
+}
